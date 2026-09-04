@@ -4,7 +4,7 @@ const stats = [
   { icon: "📡", value: "20×", label: "Livestream capacity scaled up" },
   { icon: "⚡", value: "90m → 30s", label: "Push notification delivery" },
   { icon: "👥", value: "2,000+", label: "Concurrent livestream users" },
-  { icon: "🚀", value: "1+", label: "Years building real products" },
+  { icon: "🚀", value: "2+", label: "Years building real products" },
 ];
 
 export default function About() {
