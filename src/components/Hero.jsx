@@ -17,7 +17,7 @@ export default function Hero() {
         <h1>
           Hi, I'm Abhishek
           <br />
-          <span>I build apps people love.</span>
+          <span>I build apps that people love.</span>
         </h1>
 
         <p className="hero-description">
