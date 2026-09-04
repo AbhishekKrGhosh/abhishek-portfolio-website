@@ -1,4 +1,5 @@
 import Reveal from "./Reveal";
+import kindlifeLogo from "../assets/kl.webp";
 
 const points = [
   "Owned end-to-end development and maintenance of the Kindlife React Native application, building reusable components and scalable architecture.",
@@ -17,9 +18,17 @@ export default function Experience() {
       <div className="section-label">03 — EXPERIENCE</div>
 
       <Reveal className="experience-header">
-        <div>
-          <h2>Kindlife</h2>
-          <p className="role">Associate Software Developer</p>
+        <div className="company-name">
+          <img
+            src={kindlifeLogo}
+            alt="Kindlife logo"
+            className="company-logo"
+          />
+
+          <div>
+            <h2>Kindlife</h2>
+            <p className="role">Associate Software Developer</p>
+          </div>
         </div>
 
         <span className="date">Sep 2024 — Present</span>
@@ -35,6 +44,24 @@ export default function Experience() {
             <span>Socket.IO</span>
             <span>Kotlin</span>
             <span>Swift</span>
+          </div>
+
+          <div className="store-links">
+            <span className="store-links-label">Live on</span>
+
+            <a
+              href="https://play.google.com/store/apps/details?id=com.kindlife&hl=en_IN"
+              target="_blank"
+            >
+              Google Play ↗
+            </a>
+
+            <a
+              href="https://apps.apple.com/in/app/kindlife/id1558677327"
+              target="_blank"
+            >
+              App Store ↗
+            </a>
           </div>
         </Reveal>
 
